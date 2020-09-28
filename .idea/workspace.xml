@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +30,8 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -146,7 +141,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1i8m0rT8sPBfaYyYhBYL8V1ReYY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -157,12 +152,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -189,14 +178,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601299606293</updated>
     </task>
-    <task id="LOCAL-00002" summary="Category aded">
-      <created>1601301436859</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601301436859</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +194,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -220,31 +201,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Category aded" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601301435678">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601301435678" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601297810288">
+    <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297810288" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601297810288">
+    <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297810288" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601297810288">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297810288" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601297810288">
+    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297810288" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601301448496">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1601301633410">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601299614471" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601301448496" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601301631169">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301631169" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
