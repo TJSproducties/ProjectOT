@@ -25,11 +25,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -138,6 +143,7 @@
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i8m0rT8sPBfaYyYhBYL8V1ReYY" />
@@ -170,6 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601297373714</updated>
       <workItem from="1601297374734" duration="2257000" />
+      <workItem from="1601301643232" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -178,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601299606293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+      <created>1601301719929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301719929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+      <created>1601301738354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301738354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,11 +215,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Category aded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category aded" />
+    <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
@@ -221,10 +244,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601301631169">
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601301759552">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301631169" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301759552" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
