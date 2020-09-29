@@ -19,22 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Tim1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -160,9 +164,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -181,6 +190,9 @@
       <updated>1601297373714</updated>
       <workItem from="1601297374734" duration="2257000" />
       <workItem from="1601302399689" duration="363000" />
+      <workItem from="1601302779481" duration="198000" />
+      <workItem from="1601362401816" duration="720000" />
+      <workItem from="1601369234857" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -189,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601299606293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more">
+      <created>1601302841384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302841384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,13 +229,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Category aded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category aded" />
+    <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="728" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601369710479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601369710479" />
+    <state x="518" y="0" key="CommitChangelistDialog2" timestamp="1601302839616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="518" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601302839616" />
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601371723012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601371723012" />
     <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -233,19 +265,23 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601302124991">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1601362511807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601362511807" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601302850540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301631169" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601302124991" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601302850540" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601299112193" />
-    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup" timestamp="1601301895017">
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup" timestamp="1601369531361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297562873" />
-    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601301895017" />
+    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601369531361" />
   </component>
 </project>
