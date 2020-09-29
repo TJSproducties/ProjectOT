@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,13 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Branch ole1">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/RoleAndPermissionSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RoleAndPermissionSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -176,7 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601297373714</updated>
       <workItem from="1601297374734" duration="2257000" />
-      <workItem from="1601301643232" duration="442000" />
+      <workItem from="1601301643232" duration="1589000" />
+      <workItem from="1601368698114" duration="2768000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -199,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601301738354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Branch ole1">
+      <created>1601302139569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302139569</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +239,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Category aded" />
     <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
+    <MESSAGE value="Branch ole1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch ole1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
@@ -244,17 +263,25 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601301759552">
+    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601369838714">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301759552" />
+    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601369838714" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601302163374">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601302163374" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601299112193" />
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601297562873">
+    <state x="2345" y="197" key="run.anything.popup" timestamp="1601302460569">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297562873" />
+    <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601302460569" />
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601371183221">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601371183221" />
   </component>
 </project>
