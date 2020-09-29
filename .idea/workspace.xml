@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,20 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Fix spatie permission provider" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ole1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,7 +147,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1i8m0rT8sPBfaYyYhBYL8V1ReYY" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -179,8 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601297373714</updated>
       <workItem from="1601297374734" duration="2257000" />
-      <workItem from="1601301643232" duration="1589000" />
-      <workItem from="1601368698114" duration="4049000" />
+      <workItem from="1601301643232" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -203,35 +199,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601301738354</updated>
     </task>
-    <task id="LOCAL-00004" summary="Branch ole1">
-      <created>1601302139569</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601302139569</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Fix spatie permission provider">
-      <created>1601371675216</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601371675216</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fix spatie permission provider">
-      <created>1601371684545</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1601371684545</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Fix spatie permission provider">
-      <created>1601372144838</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601372144838</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,9 +221,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Category aded" />
     <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
-    <MESSAGE value="Branch ole1" />
-    <MESSAGE value="Fix spatie permission provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spatie permission provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
@@ -278,29 +244,18 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
-    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601369838714">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601371886994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601369838714" />
-    <state x="2142" y="158" width="1133" height="301" key="ShowDiffWithBranchDialog" timestamp="1601372796231">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2142" y="158" width="1133" height="301" key="ShowDiffWithBranchDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601372796231" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601372710017">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601372710017" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301759552" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601371886994" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601299112193" />
-    <state x="2345" y="197" key="run.anything.popup" timestamp="1601302460569">
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601297562873">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601302460569" />
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601371183221">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601371183221" />
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601297562873" />
   </component>
 </project>
