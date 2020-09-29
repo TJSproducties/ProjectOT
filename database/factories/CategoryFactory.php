@@ -8,7 +8,6 @@ use App\Book;
 
 $factory->define(Category::class, function (Faker $faker) {
     return [
-        'price'=>$faker->randomFloat(2,2,6),
         'effdata'=>$faker->dateTime,
         'book_id'=> Book::all()->random()->id,
     ];
