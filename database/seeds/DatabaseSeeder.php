@@ -11,6 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(BookSeeder::class);
+
         app()['cache']->forget('spatie.permission.cache');
         Permission::create(['name'=>'create category']);
         Permission::create(['name'=>'edit category']);
