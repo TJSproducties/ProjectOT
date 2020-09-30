@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('Layouts.layout');
 });
 
-Route::get('/categories','CategoryController@index')->name('categories');
+Route::get('categories/{category}/delete', 'CategoryController@delete')->name('categories.delete');
+Route::resource('/categories', 'CategoryController');
 
 Auth::routes();
 
