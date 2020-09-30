@@ -65,11 +65,14 @@
 
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
+    <div class="container">
+        @yield('content')
+    </div>
 </main>
 
 <footer class="footer mt-auto py-3">
     <div class="container">
-        <span class="text-muted">OJVDH & T.Schenderling©.</span>
+        <span class="text-muted">OJVDH & T.Schenderling©</span>
     </div>
 </footer>
 <script src="{{asset('js/app.js')}}"></script>
