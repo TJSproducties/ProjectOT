@@ -22,15 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Fix spatie permission provider">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/show.blade.php" afterDir="false" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +199,7 @@
       <workItem from="1601297374734" duration="2257000" />
       <workItem from="1601301643232" duration="1589000" />
       <workItem from="1601368698114" duration="3205000" />
-      <workItem from="1601457446688" duration="1542000" />
+      <workItem from="1601457446688" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601382677074</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres">
+      <created>1601459389626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601459389626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +302,8 @@
     <MESSAGE value="Spatie installation including permission.php RoleAndPermissionSeeder.php&#10;and more" />
     <MESSAGE value="Branch ole1" />
     <MESSAGE value="Fix spatie permission provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spatie permission provider" />
+    <MESSAGE value="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601373687905">
@@ -334,10 +338,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601369838714" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601382686172">
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601459411796">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601382686172" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601459411796" />
     <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601373698710" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
@@ -347,10 +351,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601302460569" />
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601457920417">
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601460459770">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601457920417" />
+    <state x="2351" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601460459770" />
     <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601381476606" />
   </component>
 </project>
