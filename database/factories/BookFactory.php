@@ -3,13 +3,17 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\Book;
+use App\Category;
 use Faker\Generator as Faker;
 
 $factory->define(Book::class, function (Faker $faker) {
     return [
         //
         'title' => $faker->title,
-        'created_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam'),
-        'updated_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam')
+        'description' => $faker->paragraph(15),
+        'isbn' => $faker->randomFloat(0, 25, 25),
+        'category_id' => Category::all()->random()->id
+
+
     ];
 });
