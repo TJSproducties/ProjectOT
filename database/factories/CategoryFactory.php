@@ -9,7 +9,5 @@ use App\Book;
 $factory->define(Category::class, function (Faker $faker) {
     return [
         'name' =>$faker->name,
-//        'effdata'=>$faker->dateTime,
-//        'book_id'=> Book::all()->random()->id,
     ];
 });
