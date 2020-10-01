@@ -22,12 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment=".Categories.index works&#10;.Some small changes to layout.blade.php">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryUpdateRequest.php" afterDir="false" />
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="All Category pages will work now &#10;changes in the navbar showing the categories and books">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +206,7 @@
       <workItem from="1601301643232" duration="1589000" />
       <workItem from="1601368698114" duration="3205000" />
       <workItem from="1601457446688" duration="12053000" />
+      <workItem from="1601541346152" duration="2256000" />
     </task>
     <task id="LOCAL-00001" summary="Category aded">
       <created>1601299606293</created>
@@ -289,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601460671517</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="All Category pages will work now &#10;changes in the navbar showing the categories and books">
+      <created>1601478709079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601478709080</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +325,8 @@
     <MESSAGE value="Fix spatie permission provider" />
     <MESSAGE value="Categories.index&#10;categories.create&#10;categories.edit&#10;categories.show&#10;categories.delete&#10;web.php routing in progres" />
     <MESSAGE value=".Categories.index works&#10;.Some small changes to layout.blade.php" />
-    <option name="LAST_COMMIT_MESSAGE" value=".Categories.index works&#10;.Some small changes to layout.blade.php" />
+    <MESSAGE value="All Category pages will work now &#10;changes in the navbar showing the categories and books" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Category pages will work now &#10;changes in the navbar showing the categories and books" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1601373687905">
@@ -346,14 +357,14 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301633410" />
-    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601369838714">
+    <state x="2524" y="351" key="NewPhpFileDialog" timestamp="1601543385286">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601369838714" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601474293853">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601478723256">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601460681760" />
+    <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601478723256" />
     <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601474293853" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
@@ -363,10 +374,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601477476558" />
-    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1601478315983">
+    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1601543426488">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601478315983" />
+    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543426488" />
     <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601381476606" />
   </component>
 </project>

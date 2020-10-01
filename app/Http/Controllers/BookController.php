@@ -14,7 +14,8 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        $book = Book::all();
+        return view('admin.books.index',compact('book'));
     }
 
     /**
@@ -78,6 +79,12 @@ class BookController extends Controller
      * @param  \App\Book  $book
      * @return \Illuminate\Http\Response
      */
+
+    public function delete(Book $book)
+    {
+        return view('admin.books.delete',compact('book'));
+    }
+
     public function destroy(Book $book)
     {
         //
