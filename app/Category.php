@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use app\Book;
+use App\Book;
 
 class Category extends Model
 {
