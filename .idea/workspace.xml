@@ -23,13 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="All Category pages will work now &#10;changes in the navbar showing the categories and books">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/books/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BookSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BookSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Back-up" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -333,10 +333,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601373687905" />
-    <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="184" y="83" key="DiffContextDialog" timestamp="1601545123125">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
+    <state x="184" y="83" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601545123125" />
     <state x="2469" y="187" key="FileChooserDialogImpl" timestamp="1601457735079">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -361,11 +362,15 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
-    <state x="2281" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601478723256">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="576" y="139" key="RollbackChangesDialog" timestamp="1601544767461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="139" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601544767461" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601544690916">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601478723256" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601474293853" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601544690916" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>

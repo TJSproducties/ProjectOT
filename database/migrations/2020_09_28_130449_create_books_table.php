@@ -18,9 +18,6 @@ class CreateBooksTable extends Migration
             $table->string('title', 150);
             $table->text('description');
             $table->string('isbn', 25);
-        });
-
-        Schema::table('categories', function (Blueprint $table) {
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')
                 ->references('id')->on('categories')
@@ -28,6 +25,7 @@ class CreateBooksTable extends Migration
                 ->onUpdate('restrict');
             $table->timestamps();
         });
+
     }
 
     /**

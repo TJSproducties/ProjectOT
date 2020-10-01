@@ -546,6 +546,7 @@ class ComposerStaticInit643f8c7f0af99a9111e7d92434206ab3
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\CategoryStoreRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CategoryStoreRequest.php',
+        'App\\Http\\Requests\\CategoryUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CategoryUpdateRequest.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

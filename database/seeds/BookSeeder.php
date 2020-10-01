@@ -3,6 +3,8 @@
 use Illuminate\Database\Seeder;
 use App\Book;
 
+
+
 class BookSeeder extends Seeder
 {
     /**
