@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
+    <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="none">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BookStoreRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +169,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WorkshopV2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -346,6 +347,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="All Category pages will work now &#10;changes in the navbar showing the categories and books" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2419" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601553288449">
+      <screen x="1920" y="0" width="1536" height="864" />
+    </state>
+    <state x="2419" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601553288449" />
     <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1601551260421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,10 +359,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2067" y="69" key="DiffContextDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601301628050" />
-    <state x="2469" y="187" key="FileChooserDialogImpl" timestamp="1601457735079">
+    <state x="2469" y="187" key="FileChooserDialogImpl" timestamp="1601552177350">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601457735079" />
+    <state x="2469" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601552177350" />
     <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1601301633410">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -392,10 +397,10 @@
     </state>
     <state x="2345" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601477476558" />
     <state x="531" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601546789142" />
-    <state x="539" y="218" width="840" height="817" key="search.everywhere.popup" timestamp="1601545325156">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1601553035134">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601544617221" />
+    <state x="2658" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601553035134" />
     <state x="539" y="218" width="840" height="817" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601545325156" />
   </component>
 </project>
