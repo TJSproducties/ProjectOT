@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use App\Http\Requests\BookStoreRequest;
-use App\Product;
 use Illuminate\Http\Request;
 use App\Category;
 
@@ -98,6 +97,7 @@ class BookController extends Controller
 
     public function destroy(Book $book)
     {
-        //
+        $book->delete();
+        return redirect()->route('books.index')->with('message','Boek verwijderd');
     }
 }
