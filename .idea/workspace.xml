@@ -24,7 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed1e3a5-e8b3-423e-a5d5-788ed6d4a721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_28_130449_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601545726982</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="All Category pages will work now &#10;changes in the navbar showing the categories and books">
+      <created>1601551263273</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601551263275</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,10 +346,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="All Category pages will work now &#10;changes in the navbar showing the categories and books" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1601545724071">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1601551260421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601545724071" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601551260421" />
     <state x="2067" y="69" key="DiffContextDialog" timestamp="1601301628050">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -370,11 +378,11 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2524" y="351" key="NewPhpFileDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543385286" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601545736810">
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2" timestamp="1601551266409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2281" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1601543835218" />
-    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601545736810" />
+    <state x="451" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601551266409" />
     <state x="2508" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601299112193">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
