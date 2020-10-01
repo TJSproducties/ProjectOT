@@ -4,12 +4,12 @@
 
 use App\Book;
 use Faker\Generator as Faker;
+use App\Category;
 
 $factory->define(Book::class, function (Faker $faker) {
     return [
         //
         'title' => $faker->title,
-        'created_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam'),
-        'updated_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam')
+        '`category_id'
     ];
 });
