@@ -9,13 +9,12 @@
         @endif
 
     <nav class="nav">
-        <ul class="nav nav-tab">
+        <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a class="nav-link  active" href="{{ route('books.index') }}">Index</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('books.create') }}">
-                </a>
+                <a class="nav-link" href="{{ route('books.create') }}">Create</a>
             </li>
         </ul>
     </nav>
