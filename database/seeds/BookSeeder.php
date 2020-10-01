@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Book;
+
+
 
 class BookSeeder extends Seeder
 {
@@ -12,6 +15,6 @@ class BookSeeder extends Seeder
     public function run()
     {
         //
-        factory(\App\Book::class, 100)->create();
+        factory(Book::class, 100)->create();
     }
 }

@@ -8,6 +8,8 @@ use App\Book;
 
 $factory->define(Category::class, function (Faker $faker) {
     return [
-        'name' =>$faker->name,
+        'name' => $faker->name,
+        'created_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam'),
+        'updated_at' => $faker->dateTimeThisDecade('now', 'Europe/Amsterdam')
     ];
 });
