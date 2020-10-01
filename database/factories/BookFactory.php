@@ -11,7 +11,7 @@ $factory->define(Book::class, function (Faker $faker) {
         //
         'title' => $faker->title,
         'description' => $faker->paragraph(15),
-        'isbn' => $faker->randomFloat(0, 25, 25),
+        'isbn' => $faker->isbn13,
         'category_id' => Category::all()->random()->id
 
 
