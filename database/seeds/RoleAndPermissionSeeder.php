@@ -14,6 +14,7 @@ class RoleAndPermissionSeeder extends Seeder
     public function run()
     {
         app()['cache']->forget('spatie.permission.cache');
+
         Permission::create(['name'=>'create category']);
         Permission::create(['name'=>'edit category']);
         Permission::create(['name'=>'delete category']);

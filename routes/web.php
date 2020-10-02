@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('categories/{category}/delete', 'CategoryController@delete')->name('categories.delete');
 Route::resource('/categories', 'CategoryController');
 
-Route::get('books/{book}/delete', 'book@delete')->name('books.delete');
+Route::get('books/{book}/delete', 'BookController@delete')->name('books.delete');
 Route::resource('/books', 'bookController');
 
 Auth::routes();
