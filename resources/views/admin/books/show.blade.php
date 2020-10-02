@@ -14,3 +14,4 @@
             <a class="nav-link active" href="{{ route('books.show', ['book' => $book->id]) }}">Book Details</a>
         </ul>
     </nav>
+@endsection
